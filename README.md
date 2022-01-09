@@ -13,7 +13,7 @@ A Colorado Board of Elections employee has tasked us to complete the election au
 9. Determine the county with the highest turnout.
 
 ## Resources
-- Data Source: election_results.csv
+- Data Source: [Resources/election_results.csv](Resources/election_results.csv)
 - Software: Python 3.9.7, Visual Studio Code 1.63.2
 
 ## Election-Audit Results
@@ -31,6 +31,10 @@ The analysis of the election show that:
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes
+
+![Terminal Results](Results/terminal_output.png "Figure 8")
+
+[Results/election_results.txt](Results/election_results.txt)
 
 ## Election-Audit Summary
 The program to process the election results from the election_results.csv file completes the task of outputting the results in a concise logical manner. However, there is potential to modify the program to allow the program to process results from any election. Two modifications come to mind. One is to add an option to specify the file path of any raw election results data provided that the data is formatted prior to running the program. The second is to change the output results to general descriptions to allow for use in other word processing programs for distribution to print media or online websites.
