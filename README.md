@@ -20,9 +20,9 @@ A Colorado Board of Elections employee has tasked us to complete the election au
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The number of votes and percentage of votes based on county were:
-    - Arapahoe
-    - Denver
-    - Jefferson
+    - Arapahoe: 6.7% (24,801)
+    - Denver: 82.8% (306,055)
+    - Jefferson: 10.5% (38,855)
 - The county with the largest voter turnout was:
     - Denver
 - The candidate results were:
@@ -33,3 +33,4 @@ The analysis of the election show that:
     - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes
 
 ## Election-Audit Summary
+The program to process the election results from the election_results.csv file completes the task of outputting the results in a concise logical manner. However, there is potential to modify the program to allow the program to process results from any election. Two modifications come to mind. One is to add an option to specify the file path of any raw election results data provided that the data is formatted prior to running the program. The second is to change the output results to general descriptions to allow for use in other word processing programs for distribution to print media or online websites.
